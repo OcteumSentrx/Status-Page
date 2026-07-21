@@ -30,9 +30,17 @@
 	</div>
 </main>
 
-<style lang="postcss">
+<!-- <style lang="postcss">
 	.header {
 		height: 100%;
 		background: linear-gradient(180deg, theme('colors.accent') 60%, transparent 40%);
 	}
+</style> -->
+
+<style lang="postcss">
+    .header {
+        height: 100%;
+        /* 2. PLACED HERE: Changed theme('colors.accent') to your HEX code #4f46e5 */
+        background: linear-gradient(180deg, #4f46e5 60%, transparent 40%);
+    }
 </style>
